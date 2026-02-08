@@ -26,7 +26,8 @@ The user interface generating graphics is written in Python.
 * Circular flash memory management to maximize flash lifetime
 
 <img height="323" alt="image" src="https://github.com/user-attachments/assets/706c1a73-475a-484c-8c9d-2677173494c2" /> <img width="321" height="323" alt="image" src="https://github.com/user-attachments/assets/eec2eb92-bf1a-4dcd-afd9-9e24120603fb" />
-<img width="600" height="230" alt="image" src="https://github.com/user-attachments/assets/97098383-4444-4e41-a7c8-a05990deb762" />
+<img width="600" height="230" alt="image" src="https://github.com/user-attachments/assets/11978cdd-f45c-4750-beff-b2f1c359cbbc" />
+
 
 
 ## Hardware Overview
