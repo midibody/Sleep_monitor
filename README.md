@@ -11,6 +11,7 @@ The project is designed for experimentation.
 The software is Arduino based, in C.
 The user interface generating graphics is written in Python.
 
+**Quick start guide**, with how to test with the user commands to interface with the board [here](https://github.com/midibody/Sleep_monitor/blob/main/quickStart.md)
 
 ---
 ## Key Features
