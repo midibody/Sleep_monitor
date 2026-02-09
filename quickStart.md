@@ -13,11 +13,24 @@ Then, in menu **Tools > Board**, you need to select: **Seeed NFR 52 board > Seee
 Checking if the program is running:
 ---
 **once your sketch is built and uploaded into the board**, you can check if the code is running several ways:
+
+**Checking the integrated RGB Led:
+**
 - connecting shortly D0 to the ground (or pressing the connected push button) you should see the RGB led of the board blicking twice green.
 - If you connect D0 to ground more than 2 sec, the led should blink twice red, and the board goes to system down.
 - To wake up, you need to connect D0 shortly to ground, led should blink twince green.
 
-Once the code is running, you can send commands to the board from the Arduino terminal.
+**Sending commands to the board:
+**
+
+Once the code is running, it is listening to serial port and interpretes the commands you send and returns data.
+
+Two ways to use it: 
+- you can send commands to the board from the **Arduino IDE integrated terminal**,
+- you can use the **'SleepMonitor' tool** I developed in Python ( I provide also the .exe for Windows). This tool also builds graphs of the date retrieved from the board.
+
+Info on the 'SleepMonitor' tool [here](https://github.com/midibody/Sleep_monitor/blob/main/UserInterface/README.md)
+
 
 Using the commands to monitor and control the program:
 ---
@@ -156,4 +169,5 @@ In the example, it states that the program was compiled with USB/Serial, IMU an 
 
 **Enjoy !
 **
+
 
